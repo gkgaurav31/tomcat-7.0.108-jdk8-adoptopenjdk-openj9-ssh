@@ -10,7 +10,7 @@ docker rm -f test
 
 ## Start the container and expose port 5000 (for app) and 2222 for SSH
 
-docker run -d -p 5000:5000 -p 2222:2222 --name test test
+docker run -d -p 8080:8080 -p 2222:2222 --name test test
 
 ## Check logs to ensure that the app is running
 
