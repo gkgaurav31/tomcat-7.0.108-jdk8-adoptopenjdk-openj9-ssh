@@ -21,13 +21,8 @@ docker logs test -f
 
 ssh root@localhost -p 2222  
 root@localhost's password:  
-(password in Docker!)
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-root@50d8781b118b:/usr/src/app#
+(password is Docker!)
+root@localhost's password:
+root@7cd848fc9c9f:~#
 
 ## THIS IS A SAMPLE AND IS NOT MAINTAINED
