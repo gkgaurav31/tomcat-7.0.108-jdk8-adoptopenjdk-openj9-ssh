@@ -8,7 +8,7 @@ docker build -t test .
 
 docker rm -f test
 
-## Start the container and expose port 5000 (for app) and 2222 for SSH
+## Start the container and expose port 8080 (for app) and 2222 for SSH
 
 docker run -d -p 8080:8080 -p 2222:2222 --name test test
 
